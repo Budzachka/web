@@ -4,34 +4,29 @@
     <meta charset="utf-8">
     <title>Друзі Будзак Анастасії Іванівни</title>
     <style>
-
-body {
-  text-align: center;
-  font-family: momospace;
-  font-size: 17px;
-  line-height: 1.5;
-  color: #222;
-}
-
-#form {
-  padding: 8px 16px;
-  font-size: 19px;
-}
-
-#block {
-  border: 1px solid #666;
-  width: 200px;
-}
-
-td, th {
-  border: 1px solid #666;
-}
-
-#text {
-  height: 60px;
-  background-color: #eee;
-  padding: 16px 0;
-}
+      table{
+      border: 1px solid black;
+      width: 1000px;
+      margin-left: 40px;
+    }
+    tr td:nth-child(even) {
+      background-color: burlywood;
+    }
+    tr td:nth-child(odd){
+      background-color: darkgray;
+    }
+    th{
+      border: 2px solid black;
+      background-color: rgb(203, 117, 85);
+      color: gray;
+    }
+    tr th{
+      color: blue;
+    }
+    td{
+      border: 2px solid black;
+      padding-left: 40px;
+    }
     </style>
 </head>
 <body>
@@ -45,7 +40,7 @@ td, th {
 <caption>Мої друзі
     <h4>Таблиця</h4>
 </caption>
-<table id="block">
+<table>
 <tr>
    <th>Прізвище</th>
    <th>Ім'я</th>
