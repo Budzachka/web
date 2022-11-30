@@ -1,58 +1,51 @@
-#id_1:visited {
-    color: aqua;
+section ul{
+    list-style: none;
   }
-  
-  #id_2:visited {
-    color: pink;
-  }
-  
-  #id_3:visited {
-    color: orange;
-  }
-  
-  #id_4:visited {
-    color: green;
-  }
-  
-  #id_1:link {
-    color: black;
-  }
-  
-  #id_2:link {
-    color: red;
-  }
-  
-  #id_3:link {
+     .a {
+    color:blue ;
+    
+}
+.a:visited{
+    color :gold;
+}
+.a:hover{
+    color: cyan;
+}
+.b {
+    color:green;
+}
+.b:visited {
+    color:red;
+}
+.b:hover{
+    color: chartreuse;
+}
+.c {
+    color:orchid;
+}
+.c:visited {
+    color:olivedrab;
+}
+.c:hover{
     color: purple;
-  }
-  
-  #id_4:link {
-    color: yellow;
-  }
-  
-  h1 {
+}
+.d {
+    color:burlywood;
+}
+.d:visited {
+    color:brown;
+}
+.d:hover{
+    color: royalblue;
+}
+h1{
+    font-size: 24px;
     text-align: center;
-  }
-  
-  .row {
-    width: 100%;
-    display: flex;
-    text-align: center;
-  
-  }
-  
-  .info {
-    margin: 5px;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 20px 0;
-  }
-  
-  a {
-    font-size: 34px;
-    padding: 20px 0;
-  }
-  
+}
+.body{
+    font-size: 120%;
+}
+
   @media (min-width: 992px) {
     .col-lg-4 {
         width: 25%;

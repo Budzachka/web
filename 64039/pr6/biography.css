@@ -1,85 +1,64 @@
-header li {
+section li{
     list-style: none;
 }
-
-.Main:visited {
-    background-color: gray;
-    border: 2px solid red;
-    color: blue;
-}
-
-.Main {
-    cursor: pointer;
+section li
+a:link, a:visited {
     text-decoration: none;
     background-color: blue;
-    border: 2px solid yellow;
-    color: rgb(255, 255, 255);
+    border: 1px solid ;
+    color:white ;
     display: block;
-    width: 200px;
+    width: 250px;
     text-align: center;
-    margin-bottom: 4px;
+    margin-bottom: 1px;
 }
-
-.Main:hover {
+section li
+a:hover{
     background-color: magenta;
-    color: black;
-
-}
-
-.Main:active {
-    background-color: yellow;
-    color: black;
-    border: 2px solid gray;
-}
-
-#Базоваінформація {
-    background-color: black;
     color: white;
 }
-
-#Дитинство {
-    background-color: rgb(148, 255, 255);
-    color: black;
+section li
+a:active{
+    background-color: yellow;
+    color: blue;
 }
-
-#Шкільніроки {
-    background-color: rgb(152, 0, 0);
-    color: rgb(0, 0, 0);
+#t{
+    background-color: grey
 }
-
-#Позашколою {
-    background-color: red;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
+#te{
+    background-color: blueviolet;
 }
-
-#Університет {
-    background-color: rgb(0, 30, 255);
-    color: rgb(0, 0, 0)
+#tex{
+    background-color: aquamarine;
 }
-
-
-.row {
-    width: 100%;
-    display: flex;
+#text {
+    background-color: cadetblue;
+}
+#texxt{
+    background-color: goldenrod;
+}
+h1{
     text-align: center;
-
+    font-size: 22px;
 }
-.row div{
-    display: flex;
-    align-items: stretch;
+.font{
+    font-style: italic;
 }
-
-.info {
-    margin: 5px;
-    border: 1px solid rgb(0, 123, 0);
-    border-radius: 5px;
-    padding: 20px 0;
+.align{
+    text-align: center;
+    font-size: 1.25em;
 }
-
-a {
-    font-size: 34px;
-    padding: 20px 0;
+.transform{
+    text-transform: uppercase;
+}
+.zmist{
+   font-weight: bold;
+}
+ul{
+    font-size: 120%;
+}
+h3{
+    font-size: 2em;
 }
 
 @media (min-width: 992px) {
@@ -92,10 +71,6 @@ a {
 
     .col-lg-6 {
         width: 50%;
-    }
-
-    .col-lg-4, .col-md-6{
-
     }
 
 }
