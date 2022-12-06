@@ -2,50 +2,50 @@
 <html lang="en">
 <head>
     <style>
-       #bl1 {
-    background-color: aquamarine;
-    color: #0400ff;
+       #s {
+    background-color:bisque;
+    color: #801414;
 }
-#bl2 {
-    background-color: #00ffee;
-    color: #820085;
+#ss {
+    background-color:#ffc800;
+    color:brown;
 }
-#bl3 {
-    background-color: #1b4aa1;
-    color: #a8ffd7;
+#sss {
+    background-color: blueviolet;
+    color: #ffc800;
 }
-#bl4 {
-    background-color: #ffc800;
+#ssss {
+    background-color: green;
     color: #001999;
 }
 
-#g1 {
-    border: 2px solid black;
-    background-color: darkslategrey;
+#one {
+    border: 1px solid black;
+    background-color:darkblue;
     color: #ffffff;
     font-size: 120%;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-#g2 {
-    border: 2px solid black;
-    background-color: #0400ff;
-    color: #eeff00;
+#two {
+    border: 1px solid black;
+    background-color:olive;
+    color:black;
     font-size: 120%;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-#g3 {
-    border: 2px solid black;
-    background-color: #d4ff00;
-    color: #801414;
+#three {
+    border: 1px solid black;
+    background-color:darkslategrey;
+    color: wheat;
     font-size: 120%;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-#g4 {
-    border: 2px solid black;
-    background-color: maroon;
-    color: #80ff00;
+#four {
+    border: 1px solid black;
+    background-color:purple;
+    color: #ffc800;
     font-size: 120%;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .main {
@@ -56,8 +56,8 @@
     flex-wrap: wrap;
 }
 
-.s1 {
-    font-family: 'Caveat', cursive;
+.start {
+    font-family: 'Zen Dots', cursive;
 }
 
 table, th, td {
@@ -65,27 +65,6 @@ table, th, td {
     border-collapse: collapse;
     padding: 10px;
 }
-@media (min-width: 1200px) {
-    .col-vlg-3 {
-        width: 25%;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199.99px) {
-    .col-lg-4 {
-        width: 33.33%;
-    }
-    .col-lg-12 {
-        width: 100%;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991.99px) { 
-    .col-md-6 {
-        width: 50%;
-    }
-}
-
 @media (max-width: 767.99px) {
     .main{
         flex-direction: column;
@@ -94,17 +73,35 @@ table, th, td {
         width: 100%;
     }
 } 
+@media (min-width: 768px) and (max-width: 991.99px) { 
+    .col-md-6 {
+        width: 50%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+@media (min-width: 1200px) {
+    .col-vlg-3 {
+        width: 25%;
+    }
+}
     </style>
 <body>
-    <div class="s1"><h1>Контрольна робота</h1>
+    <div class="start"><h1>Контрольна робота</h1>
     <h2>Будзак Анастасії Іванівни</h2>
     <h3>Варіант 1</h3></div>
 
     <div class="main">
-    <div id="bl1" class="col-sm-12 col-md-6 col-lg-4 col-vlg-3 item"><h2 id="g1">Текст</h2>
+    <div id="s" class="col-sm-12 col-md-6 col-lg-4 col-vlg-3 item"><h2 id="one">Текст</h2>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus praesentium illo doloribus odio ullam accusamus dolor rem reprehenderit dolores. Id!</p></div>
     
-    <div id="bl2" class="col-sm-12 col-md-6 col-lg-4 col-vlg-3 item"><h2 id="g2">Список</h2>
+    <div id="ss" class="col-sm-12 col-md-6 col-lg-4 col-vlg-3 item"><h2 id="two">Список</h2>
             <ol>
             <li>Хліб</li>
             <li>Масло</li>
@@ -121,7 +118,7 @@ table, th, td {
        
     </div>
 
-    <div id="bl3" class="col-sm-12 col-md-6 col-lg-4 col-vlg-3 item"><h2 id="g3">Таблиця</h2>
+    <div id="sss" class="col-sm-12 col-md-6 col-lg-4 col-vlg-3 item"><h2 id="three">Таблиця</h2>
         <table>
                 <tr>
                     <th>Країна</th>
@@ -147,7 +144,7 @@ table, th, td {
         </table>
     </div>
     
-    <div id="bl4" class="col-sm-12 col-md-6 col-lg-12 col-vlg-3 item"><h2 id="g4">Зображення</h2>
+    <div id="ssss" class="col-sm-12 col-md-6 col-lg-12 col-vlg-3 item"><h2 id="four">Зображення</h2>
         <img id="im1" src="320x240.gif" alt="Сайт не працює" class="img"
   width="320" height="240">
     </div>
